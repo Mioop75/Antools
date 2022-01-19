@@ -756,7 +756,13 @@ body {
   letter-spacing: 0.04375rem;
 }
 
-@media (min-width: 29.6875rem) {
+@media (min-width: 23.5em) {
+  .person-slider__content p {
+    margin-left: 1.5625rem;
+  }
+}
+
+@media (min-width: 29.6875em) {
   .person-slider img {
     max-width: 24.9375rem;
     margin-left: 2.4375rem;
@@ -809,12 +815,6 @@ body {
 
   .contributor__form .form__input {
     padding-left: 1.4375rem;
-  }
-}
-
-@media (min-width: 376px) {
-  .person-slider__content p {
-    margin-left: 1.5625rem;
   }
 }
 
@@ -1106,7 +1106,7 @@ body {
   }
 }
 
-@media (max-width: 29.6875rem) {
+@media (max-width: 29.6875em) {
   .person-slider img {
     max-width: 17.875rem;
   }
@@ -1116,7 +1116,7 @@ body {
   }
 }
 
-@media (max-width: 23.4375rem) {
+@media (max-width: 23.4375em) {
   .person-slider img {
     display: none;
   }
