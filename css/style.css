@@ -835,6 +835,7 @@ body {
     position: absolute;
     opacity: 0;
     pointer-events: none;
+    transition: all .3s;
   }
 
   .menu__category--active {
